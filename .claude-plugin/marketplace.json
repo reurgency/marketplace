@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "reurgency",
+  "description": "reUrgency's marketplace — tools that make AI-assisted engineering faster and more reliable across Claude Code, Codex, Cursor, and GitHub Copilot.",
+  "metadata": {
+    "description": "reUrgency's marketplace of AI-assisted engineering tools.",
+    "version": "1.0.0"
+  },
+  "owner": {
+    "name": "reUrgency",
+    "email": "jeff.boothe@reurgency.com"
+  },
+  "plugins": [
+    {
+      "name": "deep-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "reurgency/Deep-Skills",
+        "path": "plugins/deep-skills"
+      },
+      "description": "The Deep-* series — planning → review → implementation → code-review → bug-fix → docs as one coherent, fresh-agent-resumable workflow, with a self-improving directive loop.",
+      "category": "workflow",
+      "keywords": ["planning", "code-review", "implementation", "multi-agent", "workflow", "deep-skills"]
+    },
+    {
+      "name": "overton-snapshot",
+      "source": {
+        "source": "git-subdir",
+        "url": "reurgency/Overton-Snapshot",
+        "path": "plugins/overton-snapshot"
+      },
+      "description": "Scenario-aware context snapshots for zero-context agent handoffs, plus a context-usage statusline and an over-threshold nudge.",
+      "category": "workflow",
+      "keywords": ["context", "compaction", "handoff", "statusline", "snapshot", "claude-code"]
+    },
+    {
+      "name": "sym-visualizer",
+      "source": {
+        "source": "github",
+        "repo": "reurgency/Sym-Visualizer"
+      },
+      "description": "Find every symlink under a folder and turn it into a Markdown report, a CSV table, and a self-contained interactive graph of where each link points.",
+      "category": "tool",
+      "keywords": ["symlink", "filesystem", "audit", "visualization", "macos", "graph"]
+    }
+  ]
+}
