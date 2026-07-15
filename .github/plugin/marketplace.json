@@ -14,8 +14,8 @@
     {
       "name": "deep-skills",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/reurgency/Deep-Skills",
+        "source": "github",
+        "repo": "reurgency/Deep-Skills",
         "path": "plugins/deep-skills"
       },
       "description": "The Deep-* series — planning → review → implementation → code-review → bug-fix → docs as one coherent, fresh-agent-resumable workflow, with a self-improving directive loop.",
@@ -25,8 +25,8 @@
     {
       "name": "overton-snapshot",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/reurgency/Overton-Snapshot",
+        "source": "github",
+        "repo": "reurgency/Overton-Snapshot",
         "path": "plugins/overton-snapshot"
       },
       "description": "Scenario-aware context snapshots for zero-context agent handoffs, plus a context-usage statusline and an over-threshold nudge.",
